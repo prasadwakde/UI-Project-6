@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 30px;
+}
+
+#navbarMonstera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#navMid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+#navMid h4{
+    font-family: Allerta;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+#navMid h4:hover{
+    border-bottom: 2px solid #000;
+    color: #000;
+    font-weight: 800;
+}
+
+#navEnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+#imgMain{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 450px;
+    height: auto;
+}
+
+#midWhole{
+    margin-top: 100px;
+    margin-right: 500px;
+    margin-left: 50px;
+}
+
+#midWholePart1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#midWholePart13{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#monstera{
+    font-family: Poppins;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+#midWholePart12{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#midWholePart121{
+    display: flex;
+    padding: 10px 25px;
+    background-color: #146c58;
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 100;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    border-radius: 30px;
+}
+
+#midWholePart122{
+    padding-top: 15px;
+}
+
+#midWholePart122 img{
+height: 20px;
+width: auto;
+}
+
+#midWholePart11 li{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: Poppins;
+    font-family: 600;
+}
+
+#midWholePart13{
+    margin-top: 20px;
+}
+
+.midWholePart13Parts{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.midWholePart13Parts h4{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
